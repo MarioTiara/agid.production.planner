@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("agid.production.planner")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1139f5f70d2fe48b4233a3dcffed684f5a5ebef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae8f89c7dca7c4925caa105d680e3c814c8da558")]
 [assembly: System.Reflection.AssemblyProductAttribute("agid.production.planner")]
 [assembly: System.Reflection.AssemblyTitleAttribute("agid.production.planner")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
