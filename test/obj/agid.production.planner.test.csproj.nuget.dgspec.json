@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mpratama/Documents/Coding/Personal/Technical-Test-Practice/agid.production.planner/test/agid.production.planner.test.csproj": {}
+    "/Users/mpratama/Documents/Coding/Personal/agid.production.planner/test/agid.production.planner.test.csproj": {}
   },
   "projects": {
-    "/Users/mpratama/Documents/Coding/Personal/Technical-Test-Practice/agid.production.planner/src/agid.production.planner.csproj": {
+    "/Users/mpratama/Documents/Coding/Personal/agid.production.planner/src/agid.production.planner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mpratama/Documents/Coding/Personal/Technical-Test-Practice/agid.production.planner/src/agid.production.planner.csproj",
+        "projectUniqueName": "/Users/mpratama/Documents/Coding/Personal/agid.production.planner/src/agid.production.planner.csproj",
         "projectName": "agid.production.planner",
-        "projectPath": "/Users/mpratama/Documents/Coding/Personal/Technical-Test-Practice/agid.production.planner/src/agid.production.planner.csproj",
+        "projectPath": "/Users/mpratama/Documents/Coding/Personal/agid.production.planner/src/agid.production.planner.csproj",
         "packagesPath": "/Users/mpratama/.nuget/packages/",
-        "outputPath": "/Users/mpratama/Documents/Coding/Personal/Technical-Test-Practice/agid.production.planner/src/obj/",
+        "outputPath": "/Users/mpratama/Documents/Coding/Personal/agid.production.planner/src/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mpratama/.nuget/NuGet/NuGet.Config"
@@ -81,14 +81,14 @@
         }
       }
     },
-    "/Users/mpratama/Documents/Coding/Personal/Technical-Test-Practice/agid.production.planner/test/agid.production.planner.test.csproj": {
+    "/Users/mpratama/Documents/Coding/Personal/agid.production.planner/test/agid.production.planner.test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mpratama/Documents/Coding/Personal/Technical-Test-Practice/agid.production.planner/test/agid.production.planner.test.csproj",
+        "projectUniqueName": "/Users/mpratama/Documents/Coding/Personal/agid.production.planner/test/agid.production.planner.test.csproj",
         "projectName": "agid.production.planner.test",
-        "projectPath": "/Users/mpratama/Documents/Coding/Personal/Technical-Test-Practice/agid.production.planner/test/agid.production.planner.test.csproj",
+        "projectPath": "/Users/mpratama/Documents/Coding/Personal/agid.production.planner/test/agid.production.planner.test.csproj",
         "packagesPath": "/Users/mpratama/.nuget/packages/",
-        "outputPath": "/Users/mpratama/Documents/Coding/Personal/Technical-Test-Practice/agid.production.planner/test/obj/",
+        "outputPath": "/Users/mpratama/Documents/Coding/Personal/agid.production.planner/test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mpratama/.nuget/NuGet/NuGet.Config"
@@ -103,8 +103,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/mpratama/Documents/Coding/Personal/Technical-Test-Practice/agid.production.planner/src/agid.production.planner.csproj": {
-                "projectPath": "/Users/mpratama/Documents/Coding/Personal/Technical-Test-Practice/agid.production.planner/src/agid.production.planner.csproj"
+              "/Users/mpratama/Documents/Coding/Personal/agid.production.planner/src/agid.production.planner.csproj": {
+                "projectPath": "/Users/mpratama/Documents/Coding/Personal/agid.production.planner/src/agid.production.planner.csproj"
               }
             }
           }
@@ -127,6 +127,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.8.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
             },
             "coverlet.collector": {
               "target": "Package",

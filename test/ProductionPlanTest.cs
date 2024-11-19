@@ -1,6 +1,8 @@
 
 namespace agid.production.planner.test;
 
+using Moq;
+using Production.Planner.Data;
 using Production.Planner.Models;
 using Production.Planner.Services;
 public class ProductionPlanServiceTests
@@ -15,9 +17,10 @@ public class ProductionPlanServiceTests
     {
 
         //Arrange
-        var productionPlan = new ProductionPlanService();
+        var mockRepo= new Mock<IRepository<ProductionScheduleModel>>();
+        var productionPlan = new ProductionPlanService(mockRepo.Object);
         //Act
-        var result = productionPlan.DistribusiProduksiHarian;
+        var result = productionPlan.RedistributedProductionShedule;
         //Assert
         Assert.Equal(expected, result);
     }
@@ -30,9 +33,10 @@ public class ProductionPlanServiceTests
     {
 
         //Arrange
-        var productionPlan = new ProductionPlanService(1, schedule);
+        var mockRepo= new Mock<IRepository<ProductionScheduleModel>>();
+        var productionPlan = new ProductionPlanService(mockRepo.Object);
         //Act
-        var result = productionPlan.DistribusiProduksiHarian;
+        var result = productionPlan.RedistributedProductionShedule;
         //Assert
         Assert.Equal(expected, result);
     }

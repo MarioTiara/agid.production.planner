@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mpratama/Documents/Coding/Personal/Technical-Test-Practice/agid.production.planner/src/agid.production.planner.csproj": {}
+    "/Users/mpratama/Documents/Coding/Personal/agid.production.planner/src/agid.production.planner.csproj": {}
   },
   "projects": {
-    "/Users/mpratama/Documents/Coding/Personal/Technical-Test-Practice/agid.production.planner/src/agid.production.planner.csproj": {
+    "/Users/mpratama/Documents/Coding/Personal/agid.production.planner/src/agid.production.planner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mpratama/Documents/Coding/Personal/Technical-Test-Practice/agid.production.planner/src/agid.production.planner.csproj",
+        "projectUniqueName": "/Users/mpratama/Documents/Coding/Personal/agid.production.planner/src/agid.production.planner.csproj",
         "projectName": "agid.production.planner",
-        "projectPath": "/Users/mpratama/Documents/Coding/Personal/Technical-Test-Practice/agid.production.planner/src/agid.production.planner.csproj",
+        "projectPath": "/Users/mpratama/Documents/Coding/Personal/agid.production.planner/src/agid.production.planner.csproj",
         "packagesPath": "/Users/mpratama/.nuget/packages/",
-        "outputPath": "/Users/mpratama/Documents/Coding/Personal/Technical-Test-Practice/agid.production.planner/src/obj/",
+        "outputPath": "/Users/mpratama/Documents/Coding/Personal/agid.production.planner/src/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mpratama/.nuget/NuGet/NuGet.Config"
